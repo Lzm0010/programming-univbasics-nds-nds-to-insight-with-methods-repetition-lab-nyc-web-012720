@@ -48,9 +48,10 @@ def total_gross(source)
   # return the total
   grand_total = 0
   
+  directors = list_of_directors(source)
   ind_totals = directors_totals(source)
   
-  while d < keys.size do
+  while d < .size do
     keys[d]
     
     d += 1
