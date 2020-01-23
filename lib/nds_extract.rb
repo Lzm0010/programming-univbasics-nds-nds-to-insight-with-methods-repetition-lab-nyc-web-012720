@@ -53,7 +53,7 @@ def total_gross(source)
   
   d = 0
   while d < directors.size do
-    ind_totals[]
+    directors[d]
     
     d += 1
   end
