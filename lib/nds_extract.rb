@@ -54,7 +54,7 @@ def total_gross(source)
   d = 0
   while d < directors.size do
     key = directors[d]
-    ind_totals[key]
+    grand_total += ind_totals[key] 
     
     d += 1
   end
